@@ -1,0 +1,25 @@
+# Build artifacts
+*.o
+*.out
+*.exe
+sphincs_app
+
+# Generated cryptographic files
+*_kljuc.txt
+*key*.txt
+*signature*.txt
+*potpis*.txt
+*hash*.txt
+poruka.txt
+original_message.txt
+
+# Editor / IDE files
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
