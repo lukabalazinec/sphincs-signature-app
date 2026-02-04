@@ -5,8 +5,7 @@ This project implements a desktop application for creating and verifying digital
 1. Clone the repository or download it as a ZIP archive
 2. Navigate to the project directory
 3. Make sure all required dependencies are installed
-4. Compile the project using the provided Makefile: `make`
-5. Run the application: `./sphincs_app`
+4. Run the application with: `gcc -o sphincs_app main.c address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_robust.c -DPARAMS=sphincs-sha2-128s -lssl -lcrypto ``pkg-config --cflags --libs gtk+-3.0`
 
 ## Required Dependencies
 - C compiler (GCC recommended)
